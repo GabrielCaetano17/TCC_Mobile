@@ -35,7 +35,7 @@
             android:layout_height="75dp"
             android:layout_marginTop="25dp"
             android:layout_width="350dp"
-            android:text="Mandamos um código para taltal tal insira o código aqui."
+            android:text="Mandamos um código para ####@#### e insira o código aqui."
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
