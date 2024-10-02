@@ -32,10 +32,10 @@
         <TextView
             android:textColorHint="@color/black"
             android:id="@+id/descrição"
-            android:layout_width="350dp"
             android:layout_height="75dp"
             android:layout_marginTop="25dp"
-            android:text="@string/email"
+            android:layout_width="350dp"
+            android:text="Mandamos um código para taltal tal insira o código aqui."
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -43,25 +43,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/img" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Email:"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/email"
-            app:layout_constraintBottom_toTopOf="@+id/email"
-             />
 
         <EditText
             android:id="@+id/email"
             style="@style/email"
-
-            android:hint="inserir email"
+            android:hint="insira o código"
             android:textColor="@color/black"
             android:inputType="textEmailAddress"
-            android:drawableRight="@drawable/ic_email"
+            android:drawableRight="@drawable/ic_lock"
             app:layout_constraintStart_toStartOf="@+id/menu"
             app:layout_constraintEnd_toEndOf="@+id/menu"
             app:layout_constraintTop_toBottomOf="@+id/descrição"
