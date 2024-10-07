@@ -49,7 +49,6 @@
             style="@style/email"
             android:hint="insira o código"
             android:textColor="@color/black"
-            android:inputType="textEmailAddress"
             android:drawableRight="@drawable/ic_lock"
             app:layout_constraintStart_toStartOf="@+id/menu"
             app:layout_constraintEnd_toEndOf="@+id/menu"

@@ -51,7 +51,7 @@
             style="@style/email"
             android:hint="insira a nova senha:"
             android:textColor="@color/black"
-            android:inputType="textEmailAddress"
+            android:inputType="textPassword"
             android:drawableRight="@drawable/ic_lock"
             app:layout_constraintStart_toStartOf="@+id/menu"
             app:layout_constraintEnd_toEndOf="@+id/menu"
