@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".FormLogin">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:src="@drawable/img"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <View
+            android:id="@+id/menu"
+            style="@style/menu"
+            android:layout_width="403dp"
+            android:layout_height="525dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img" />
+        <TextView
+            android:textColorHint="@color/black"
+            android:id="@+id/descrição"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+            android:layout_width="350dp"
+            android:text="Mandamos um código para ####@#### e insira o código aqui."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img" />
+
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/email"
+            android:hint="insira o código"
+            android:textColor="@color/black"
+            android:drawableRight="@drawable/ic_lock"
+            app:layout_constraintStart_toStartOf="@+id/menu"
+            app:layout_constraintEnd_toEndOf="@+id/menu"
+            app:layout_constraintTop_toBottomOf="@+id/descrição"
+
+            />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/button"
+            android:id="@+id/entrar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/email"
+            android:text="Prosseguir"
+            android:textColor="@color/white"
+
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_sempacote.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_sempacote.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_iniciasc.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_iniciasc.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_form_login.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_form_login.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_teste.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_teste.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_pacoteass.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_pacoteass.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_menuper.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_menuper.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_assinado.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_assinado.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_code.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_code.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_assinando.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_assinando.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_senha.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_senha.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_inicial_cc.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_inicial_cc.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_pacote.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_pacote.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_confirm.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_confirm.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_main.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_email.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_email.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_perfil.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_perfil.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_form_cadastro.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_form_cadastro.xml"
+    },
+    {
+        "merged": "com.example.tcc.app-mergeDebugResources-31:/layout/activity_inicial_cc.xml",
+        "source": "com.example.tcc.app-main-34:/layout/activity_inicial_cc.xml"
+    }
+]

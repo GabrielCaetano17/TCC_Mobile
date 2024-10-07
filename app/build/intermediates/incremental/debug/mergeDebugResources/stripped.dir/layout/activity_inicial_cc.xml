@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".InicialCc"
+        android:background="@color/white"
+        tools:ignore="ExtraText">
+
+        <View
+            android:id="@+id/menu"
+            style="@style/menu"
+            android:background="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="00dp"
+            android:layout_height="100dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/homi"
+            android:layout_width="660dp"
+            android:layout_height="300dp"
+
+            android:src="@drawable/home2"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/menu" />
+
+        <ImageView
+            android:id="@+id/perfil"
+            android:layout_width="75dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_perfil"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/kitfit"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Kits Fits"
+            app:layout_constraintStart_toStartOf="@id/homi"
+            app:layout_constraintEnd_toEndOf="@id/homi"
+            app:layout_constraintTop_toBottomOf="@id/homi"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:background="@drawable/button"
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kitfit"
+            />
+
+        <ImageButton
+            android:id="@+id/suplemento"
+            android:src="@drawable/suplemento"
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kitfit"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:text="PACOTE FODA"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suplemento"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
+

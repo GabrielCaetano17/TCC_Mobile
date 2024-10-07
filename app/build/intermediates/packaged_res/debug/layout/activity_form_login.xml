@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".FormLogin">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:src="@drawable/img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/menu"
+        style="@style/menu"
+        android:layout_width="403dp"
+        android:layout_height="525dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Email:"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/esqueceu"
+
+        app:layout_constraintStart_toStartOf="@+id/esqueceu"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintTop_toTopOf="@+id/menu" />
+
+    <EditText
+            android:id="@+id/email"
+style="@style/email"
+
+            android:hint="inserir email"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:drawableRight="@drawable/ic_email"
+            app:layout_constraintStart_toStartOf="@+id/menu"
+            app:layout_constraintEnd_toEndOf="@+id/menu"
+            app:layout_constraintTop_toTopOf="@+id/menu"
+            android:layout_marginTop="80dp"
+       />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:text="Senha:"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/senha"
+        app:layout_constraintEnd_toEndOf="@+id/esqueceu"
+
+        app:layout_constraintStart_toStartOf="@+id/esqueceu"
+        app:layout_constraintTop_toTopOf="@+id/menu"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/senha"
+        style="@style/email"
+        android:textColor="@color/black"
+        android:hint="inserir senha"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/ic_lock"
+        android:layout_marginTop="35dp"
+        app:layout_constraintStart_toStartOf="@+id/menu"
+        app:layout_constraintEnd_toEndOf="@+id/menu"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+      style="@style/button"
+            android:id="@+id/entrar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/senha"
+            android:text="@string/entrar"
+            android:textColor="@color/white"
+
+            />
+
+
+    <TextView
+        android:id="@+id/esqueceu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="25dp"
+        android:text="@string/esqueceu"
+        app:layout_constraintStart_toStartOf="@+id/entrar"
+
+        app:layout_constraintTop_toBottomOf="@+id/entrar"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tstCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="@string/cadastro"
+        android:textColor="@color/link"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/entrar"
+        app:layout_constraintStart_toStartOf="@id/entrar"
+        app:layout_constraintTop_toBottomOf="@id/entrar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

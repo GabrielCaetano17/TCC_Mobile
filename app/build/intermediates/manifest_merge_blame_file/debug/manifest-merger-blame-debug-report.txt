@@ -1,0 +1,186 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tcc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->Z:\TCC\app\src\main\AndroidManifest.xml:5:5-67
+11-->Z:\TCC\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\25d17c91d5902985514078e82b64555a\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.tcc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\25d17c91d5902985514078e82b64555a\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\25d17c91d5902985514078e82b64555a\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.tcc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\25d17c91d5902985514078e82b64555a\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\25d17c91d5902985514078e82b64555a\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->Z:\TCC\app\src\main\AndroidManifest.xml:7:5-74:19
+20        android:allowBackup="true"
+20-->Z:\TCC\app\src\main\AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\25d17c91d5902985514078e82b64555a\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->Z:\TCC\app\src\main\AndroidManifest.xml:9:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->Z:\TCC\app\src\main\AndroidManifest.xml:10:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->Z:\TCC\app\src\main\AndroidManifest.xml:11:9-43
+27        android:label="@string/app_name"
+27-->Z:\TCC\app\src\main\AndroidManifest.xml:12:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->Z:\TCC\app\src\main\AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->Z:\TCC\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.TCC"
+31-->Z:\TCC\app\src\main\AndroidManifest.xml:15:9-41
+32        android:usesCleartextTraffic="true" >
+32-->Z:\TCC\app\src\main\AndroidManifest.xml:16:9-44
+33        <activity
+33-->Z:\TCC\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.tcc.confirm"
+34-->Z:\TCC\app\src\main\AndroidManifest.xml:19:13-36
+35            android:exported="false" />
+35-->Z:\TCC\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->Z:\TCC\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="com.example.tcc.senha"
+37-->Z:\TCC\app\src\main\AndroidManifest.xml:22:13-34
+38            android:exported="false" />
+38-->Z:\TCC\app\src\main\AndroidManifest.xml:23:13-37
+39        <activity
+39-->Z:\TCC\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.tcc.code"
+40-->Z:\TCC\app\src\main\AndroidManifest.xml:25:13-33
+41            android:exported="false" />
+41-->Z:\TCC\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->Z:\TCC\app\src\main\AndroidManifest.xml:27:9-29:40
+43            android:name="com.example.tcc.email"
+43-->Z:\TCC\app\src\main\AndroidManifest.xml:28:13-34
+44            android:exported="false" />
+44-->Z:\TCC\app\src\main\AndroidManifest.xml:29:13-37
+45        <activity
+45-->Z:\TCC\app\src\main\AndroidManifest.xml:30:9-32:40
+46            android:name="com.example.tcc.assinado"
+46-->Z:\TCC\app\src\main\AndroidManifest.xml:31:13-37
+47            android:exported="false" />
+47-->Z:\TCC\app\src\main\AndroidManifest.xml:32:13-37
+48        <activity
+48-->Z:\TCC\app\src\main\AndroidManifest.xml:33:9-36:48
+49            android:name="com.example.tcc.assinando"
+49-->Z:\TCC\app\src\main\AndroidManifest.xml:34:13-38
+50            android:exported="false"
+50-->Z:\TCC\app\src\main\AndroidManifest.xml:35:13-37
+51            android:theme="@style/Theme.TCC" />
+51-->Z:\TCC\app\src\main\AndroidManifest.xml:36:13-45
+52        <activity
+52-->Z:\TCC\app\src\main\AndroidManifest.xml:37:9-39:40
+53            android:name="com.example.tcc.sempacote"
+53-->Z:\TCC\app\src\main\AndroidManifest.xml:38:13-38
+54            android:exported="false" />
+54-->Z:\TCC\app\src\main\AndroidManifest.xml:39:13-37
+55        <activity
+55-->Z:\TCC\app\src\main\AndroidManifest.xml:40:9-42:40
+56            android:name="com.example.tcc.pacoteass"
+56-->Z:\TCC\app\src\main\AndroidManifest.xml:41:13-38
+57            android:exported="false" />
+57-->Z:\TCC\app\src\main\AndroidManifest.xml:42:13-37
+58        <activity
+58-->Z:\TCC\app\src\main\AndroidManifest.xml:43:9-52:20
+59            android:name="com.example.tcc.Testebd"
+59-->Z:\TCC\app\src\main\AndroidManifest.xml:44:13-36
+60            android:exported="true"
+60-->Z:\TCC\app\src\main\AndroidManifest.xml:45:13-36
+61            android:theme="@style/Theme.TCC" >
+61-->Z:\TCC\app\src\main\AndroidManifest.xml:46:13-45
+62            <intent-filter>
+62-->Z:\TCC\app\src\main\AndroidManifest.xml:47:13-51:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->Z:\TCC\app\src\main\AndroidManifest.xml:48:17-69
+63-->Z:\TCC\app\src\main\AndroidManifest.xml:48:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->Z:\TCC\app\src\main\AndroidManifest.xml:50:17-77
+65-->Z:\TCC\app\src\main\AndroidManifest.xml:50:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->Z:\TCC\app\src\main\AndroidManifest.xml:53:9-55:40
+69            android:name="com.example.tcc.InicialSc"
+69-->Z:\TCC\app\src\main\AndroidManifest.xml:54:13-38
+70            android:exported="false" />
+70-->Z:\TCC\app\src\main\AndroidManifest.xml:55:13-37
+71        <activity
+71-->Z:\TCC\app\src\main\AndroidManifest.xml:56:9-58:40
+72            android:name="com.example.tcc.Pacote"
+72-->Z:\TCC\app\src\main\AndroidManifest.xml:57:13-35
+73            android:exported="false" />
+73-->Z:\TCC\app\src\main\AndroidManifest.xml:58:13-37
+74        <activity
+74-->Z:\TCC\app\src\main\AndroidManifest.xml:59:9-61:40
+75            android:name="com.example.tcc.perfil"
+75-->Z:\TCC\app\src\main\AndroidManifest.xml:60:13-35
+76            android:exported="false" />
+76-->Z:\TCC\app\src\main\AndroidManifest.xml:61:13-37
+77        <activity
+77-->Z:\TCC\app\src\main\AndroidManifest.xml:62:9-64:40
+78            android:name="com.example.tcc.InicialCc"
+78-->Z:\TCC\app\src\main\AndroidManifest.xml:63:13-38
+79            android:exported="false" />
+79-->Z:\TCC\app\src\main\AndroidManifest.xml:64:13-37
+80        <activity
+80-->Z:\TCC\app\src\main\AndroidManifest.xml:65:9-67:40
+81            android:name="com.example.tcc.FormCadastro"
+81-->Z:\TCC\app\src\main\AndroidManifest.xml:66:13-41
+82            android:exported="false" />
+82-->Z:\TCC\app\src\main\AndroidManifest.xml:67:13-37
+83        <activity
+83-->Z:\TCC\app\src\main\AndroidManifest.xml:68:9-70:40
+84            android:name="com.example.tcc.MainActivity"
+84-->Z:\TCC\app\src\main\AndroidManifest.xml:69:13-41
+85            android:exported="false" />
+85-->Z:\TCC\app\src\main\AndroidManifest.xml:70:13-37
+86        <activity
+86-->Z:\TCC\app\src\main\AndroidManifest.xml:71:9-73:40
+87            android:name="com.example.tcc.FormLogin"
+87-->Z:\TCC\app\src\main\AndroidManifest.xml:72:13-38
+88            android:exported="false" />
+88-->Z:\TCC\app\src\main\AndroidManifest.xml:73:13-37
+89
+90        <provider
+90-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+91            android:name="androidx.startup.InitializationProvider"
+91-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+92            android:authorities="com.example.tcc.androidx-startup"
+92-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+93            android:exported="false" >
+93-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+94            <meta-data
+94-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+95-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+96                android:value="androidx.startup" />
+96-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+97            <meta-data
+97-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\AndroidWorkFolder\.gradle\caches\transforms-3\d78e4e26e1aefc152d0ee4dc6a642534\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+98-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\AndroidWorkFolder\.gradle\caches\transforms-3\d78e4e26e1aefc152d0ee4dc6a642534\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+99                android:value="androidx.startup" />
+99-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\AndroidWorkFolder\.gradle\caches\transforms-3\d78e4e26e1aefc152d0ee4dc6a642534\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+100        </provider>
+101    </application>
+102
+103</manifest>
