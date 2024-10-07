@@ -1,5 +1,6 @@
 package com.example.tcc;
 
+import android.content.Context;
 import android.os.StrictMode;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,7 +8,7 @@ import java.sql.SQLException;
 
 public class Conexao {
 
-    public static Connection conectar() {
+    public static Connection conectar(Context ctx) {
 
         Connection conn = null;
 

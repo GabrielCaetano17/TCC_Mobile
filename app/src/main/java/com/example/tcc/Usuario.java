@@ -2,13 +2,13 @@ package com.example.tcc;
 
 public class Usuario {
 
-    private String nome;
+    private static String nome;
 
-    private String email;
+    private static String email;
 
-    private String senha;
+    private static String senha;
 
-    public String getNome() {
+    public static String getNome() {
         return nome;
     }
 
@@ -16,7 +16,7 @@ public class Usuario {
         this.nome = nome;
     }
 
-    public String getEmail() {
+    public static String getEmail() {
         return email;
     }
 
@@ -24,7 +24,7 @@ public class Usuario {
         this.email = email;
     }
 
-    public String getSenha() {
+    public static String getSenha() {
         return senha;
     }
 

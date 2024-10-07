@@ -14,7 +14,7 @@ public class Testebd extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teste);
 
-        Connection conn = Conexao.conectar();
+        Connection conn = Conexao.conectar(ctx);
         teste = findViewById(R.id.Teste);
 
         try {

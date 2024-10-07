@@ -41,7 +41,7 @@
             android:name=".pacoteass"
             android:exported="false" />
         <activity
-            android:name=".InicialSc"
+            android:name=".Testebd"
             android:exported="true"
             android:theme="@style/Theme.TCC">
             <intent-filter>
@@ -51,7 +51,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Testebd"
+            android:name=".InicialSc"
             android:exported="false" />
         <activity
             android:name=".Pacote"

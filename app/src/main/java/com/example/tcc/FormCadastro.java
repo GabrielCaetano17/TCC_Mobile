@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.snackbar.Snackbar;
+
 public class FormCadastro extends AppCompatActivity {
 
     public boolean valido = true;
@@ -82,6 +84,19 @@ public class FormCadastro extends AppCompatActivity {
             public void onClick(View view) {
                 String erros = validar();
                 if (erros.equals("")) {
+
+                    Usuario user = new Usuario(
+                            nome.getText().toString(),
+                            email.getText().toString(),
+                            Senha.getText().toString()
+                    );
+
+                    int res = UsuarioCrud.InserirUsuario(user, getBaseContext());
+                    if (res <=0) {
+                        Snackbar.make(btnSalvar, "dados não inseridos", Snackbar.LENGTH_LONG).show();
+                    } else {
+                        Snackbar.make(btnSalvar, "dados inseridos", Snackbar.LENGTH_LONG).show();
+                    }
                     //Codigo de salvar es dados...
                     Toast.makeText(FormCadastro.this, "Cadastro realizado", Toast.LENGTH_SHORT).show();//serve para clicar a mensagem que aparece rapidamente
                     finish();
