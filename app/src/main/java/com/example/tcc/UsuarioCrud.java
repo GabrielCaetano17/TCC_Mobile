@@ -12,7 +12,7 @@ public class UsuarioCrud {
 
         try {
             PreparedStatement pst = Conexao.conectar(ctx).prepareStatement
-                    ("Insert Into (nome, email, senha)" + "values (?, ?, ?, 'CLIENTE', )")
+                    ("Insert Into (nome, email, senha)" + "values (?, ?, ?, 'CLIENTE', NULL, getdate(), 'ATIVO'")
         }
 
     }
