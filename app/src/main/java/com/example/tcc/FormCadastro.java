@@ -20,6 +20,11 @@ public class FormCadastro extends AppCompatActivity {
         //botão para salvar os dados
         Button btnSalvar = (Button) findViewById(R.id.entrar);
         TextView textView1 = findViewById(R.id.tstCadastro);
+      EditText nome = (EditText) findViewById(R.id.nome);
+      EditText email = (EditText) findViewById(R.id.email);
+      EditText Senha = (EditText) findViewById(R.id.senha);
+      EditText repetir = (EditText) findViewById(R.id.repetir);
+
 
       textView1.setOnClickListener(new View.OnClickListener() {
           @Override
@@ -36,10 +41,6 @@ public class FormCadastro extends AppCompatActivity {
             public String validar(){
                 String erros="";
 
-                EditText nome = (EditText) findViewById(R.id.nome);
-                EditText email = (EditText) findViewById(R.id.email);
-                EditText Senha = (EditText) findViewById(R.id.senha);
-                EditText repetir = (EditText) findViewById(R.id.repetir);
 
                 if (nome.getText().toString().equals("")){
                     erros = "O nome é obrigatório\n";
