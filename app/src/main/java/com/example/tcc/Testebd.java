@@ -1,9 +1,12 @@
 package com.example.tcc;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Context;
 import android.os.Bundle;
 import android.widget.TextView;
 import java.sql.Connection;
+import java.sql.SQLException;
 
 public class Testebd extends AppCompatActivity {
 
@@ -14,23 +17,25 @@ public class Testebd extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teste);
 
+
+        Context ctx = null;
         Connection conn = Conexao.conectar(ctx);
         teste = findViewById(R.id.Teste);
 
         try {
             if(conn != null) {
                 if (!conn.isClosed())
-                    teste.setText("conectado");
+                    teste.setText("Conectado");
                 else
-                    teste.setText("conexão fechada");
+                    teste.setText("Conexão Fechada");
             }
             else {
-                teste.setText("conexão nula");
+                teste.setText("Conexão Nula");
             }
         }
-        catch (java.sql.SQLException ex) {
+        catch (SQLException ex) {
             ex.printStackTrace();
-            teste.setText("conexão falhou\n" +
+            teste.setText("Conexão Falhou\n" +
                     ex.getMessage());
         }
 

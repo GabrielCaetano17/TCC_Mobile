@@ -98,18 +98,11 @@ public class FormCadastro extends AppCompatActivity {
                         Snackbar.make(btnSalvar, "dados inseridos", Snackbar.LENGTH_LONG).show();
                     }
                     //Codigo de salvar es dados...
-                    Toast.makeText(FormCadastro.this, "Cadastro realizado", Toast.LENGTH_SHORT).show();//serve para clicar a mensagem que aparece rapidamente
-                    finish();
                     Intent it = new Intent(FormCadastro.this, InicialCc.class);
                     startActivity(it);
                 }else {
-                    Toast.makeText(FormCadastro.this, "Verifique os erros: "+erros, Toast.LENGTH_SHORT).show();//Detectado erros
-
                     erros = "";
                 }
-
-
-
             }
         });
     }

@@ -12,7 +12,8 @@ public class UsuarioCrud {
 
         try {
             PreparedStatement pst = Conexao.conectar(ctx).prepareStatement
-                    ("Insert Into (nome, email, senha)" + "values (?, ?, ?, 'CLIENTE', NULL, getdate(), 'ATIVO'");
+                    ("INSERT Usuario (nome, email, senha, nivelAcesso, foto, dataCadastro, statusUsuario)\n" +
+                            "VALUES (?, ?,? , 'Cliente', NULL, GETDATE(), 'ATIVO')");
 
             pst.setString(1, Usuario.getNome());
             pst.setString(2, Usuario.getEmail());
