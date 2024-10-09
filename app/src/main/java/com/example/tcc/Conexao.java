@@ -17,7 +17,7 @@ public class Conexao {
             politica = new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(politica);
             Class.forName("net.sourceforge.jtds.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:jtds:sqlserver://172.19.0.97;"+
+            conn = DriverManager.getConnection("jdbc:jtds:sqlserver://172.19.0.150;"+
                     "databaseName=bd_Kitfit;user=sa;password=@ITB123456;");
         }
         catch (SQLException e) {
