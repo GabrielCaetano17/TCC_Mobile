@@ -25,7 +25,9 @@ drawable ic_loja_
 drawable ic_perfil
 drawable ic_voltar
 drawable img
+drawable load
 drawable menu
+drawable splash
 drawable suplemento
 id CPF
 id FirstFragment

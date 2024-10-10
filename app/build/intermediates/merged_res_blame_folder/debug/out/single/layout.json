@@ -20,10 +20,6 @@
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_pacoteass.xml"
     },
     {
-        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_menuper.xml",
-        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_menuper.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_assinado.xml",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_assinado.xml"
     },
@@ -64,11 +60,11 @@
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_perfil.xml"
     },
     {
-        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_form_cadastro.xml",
-        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_form_cadastro.xml"
+        "merged": "com.example.tcc.app-mergeDebugResources-31:/layout/activity_perfil.xml",
+        "source": "com.example.tcc.app-main-34:/layout/activity_perfil.xml"
     },
     {
-        "merged": "com.example.tcc.app-mergeDebugResources-31:/layout/activity_inicial_cc.xml",
-        "source": "com.example.tcc.app-main-34:/layout/activity_inicial_cc.xml"
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_form_cadastro.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_form_cadastro.xml"
     }
 ]
