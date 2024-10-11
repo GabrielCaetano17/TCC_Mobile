@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/motionLayout"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,5 +15,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/backgroundLayout"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:layout_editor_absoluteX="130dp" />
+
+    <ImageView
+        android:id="@+id/KitFit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bg"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="396dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
