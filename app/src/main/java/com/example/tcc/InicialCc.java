@@ -16,7 +16,10 @@ public class InicialCc extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicial_cc);
         ImageView textView = findViewById(R.id.perfil);
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) ImageView suple = findViewById(R.id.suplemento);
+        TextView textView1 = findViewById(R.id.assine);
+        TextView textView2 = findViewById(R.id.assine2);
+        TextView textView3 = findViewById(R.id.assine3);
+        TextView textView4 = findViewById(R.id.assine4);
 
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,11 +29,40 @@ public class InicialCc extends AppCompatActivity {
             }
         });
 
-        suple.setOnClickListener(new View.OnClickListener() {
+
+        textView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(InicialCc.this, Pacote.class);
                 startActivity(it);
+
+            }
+        });
+
+        textView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(InicialCc.this, Pacote.class);
+                startActivity(it);
+
+            }
+        });
+
+        textView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(InicialCc.this, Pacote.class);
+                startActivity(it);
+
+            }
+        });
+
+        textView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(InicialCc.this, Pacote.class);
+                startActivity(it);
+
             }
         });
 
