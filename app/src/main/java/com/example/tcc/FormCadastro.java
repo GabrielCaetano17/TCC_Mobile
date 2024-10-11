@@ -98,7 +98,7 @@ public class FormCadastro extends AppCompatActivity {
                         Snackbar.make(btnSalvar, "dados inseridos", Snackbar.LENGTH_LONG).show();
                     }
                     //Codigo de salvar es dados...
-                    Intent it = new Intent(FormCadastro.this, InicialCc.class);
+                    Intent it = new Intent(FormCadastro.this, FormLogin.class);
                     startActivity(it);
                 }else {
                     erros = "";
