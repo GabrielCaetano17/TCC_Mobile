@@ -8,12 +8,12 @@
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_iniciasc.xml"
     },
     {
-        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_form_login.xml",
-        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_form_login.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_teste.xml",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_teste.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_form_login.xml",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_form_login.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-mergeDebugResources-31:\\layout\\activity_pacoteass.xml",

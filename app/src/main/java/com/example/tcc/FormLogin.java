@@ -20,6 +20,8 @@ import org.w3c.dom.Text;
 
 public class FormLogin extends AppCompatActivity {
 
+    EditText email, senha;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form_login);
@@ -27,8 +29,8 @@ public class FormLogin extends AppCompatActivity {
         Button btnSalvar = (Button) findViewById(R.id.entrar);
         TextView textView1 = findViewById(R.id.tstCadastro);
         TextView textView2 = findViewById(R.id.esqueceu);
-        EditText email = (EditText) findViewById(R.id.email);
-        EditText senha = (EditText) findViewById(R.id.senha);
+        email = (EditText) findViewById(R.id.email);
+        senha = (EditText) findViewById(R.id.senha);
 
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,25 +68,19 @@ public class FormLogin extends AppCompatActivity {
             String Email = params[0];
             String Senha = params[1];
 
-            String url = "jdbc:jtds:sqlserver://172.19.1.163;databaseName=bd_Kitfit;";
+            String url = "jdbc:jtds:sqlserver://172.19.1.43;databaseName=bd_Kitfit;";
             String user = "sa";
             String pass = "@ITB123456";
 
             try {
-                Class.forName("net.sourceforge.jtds.jdbc.Driver");
-                Connection connection = DriverManager.getConnection("jdbc:jtds:sqlserver://172.19.1.163;" +
-                        "databaseName=bd_Kitfit;user=sa;password=@ITB123456;");
-                String query = "Select * From Usuario where email = ? AND senha = ?";
-                PreparedStatement preparedStatement = connection.prepareStatement(query);
+                String query = "Select nome, email From Usuario where email = ? AND senha = ?";
+                PreparedStatement preparedStatement = Conexao.conectar(FormLogin.this).prepareStatement(query);
                 preparedStatement.setString(1, Email);
                 preparedStatement.setString(2, Senha);
                 ResultSet resultSet = preparedStatement.executeQuery();
                 boolean validLogin = resultSet.next();
-
                 resultSet.close();
                 preparedStatement.close();
-                connection.close();
-
                 return  validLogin;
             }catch (Exception e){
                 e.printStackTrace();
@@ -95,7 +91,10 @@ public class FormLogin extends AppCompatActivity {
             protected void onPostExecute(Boolean sucess) {
             if (sucess) {
                 Toast.makeText(FormLogin.this, "login realizado", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(FormLogin.this, InicialCc.class));
+                Intent it = new Intent(FormLogin.this, InicialCc.class);
+                it.putExtra("email", email.getText().toString());
+                it.putExtra("senha", senha.getText().toString());
+                startActivity(it);
                 finish();
             } else {
                 Toast.makeText(FormLogin.this, "por favor coloque os seus dados de forma correta", Toast.LENGTH_SHORT).show();

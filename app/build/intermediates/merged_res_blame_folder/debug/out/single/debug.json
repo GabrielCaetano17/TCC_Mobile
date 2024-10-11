@@ -32,12 +32,12 @@
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\img.png"
     },
     {
-        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_alerta.xml.flat",
-        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\alerta.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_bloquin.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\bloquin.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_alerta.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\alerta.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_pacote.xml.flat",
@@ -78,6 +78,10 @@
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_bg.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\bg.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_cancela.xml.flat",
@@ -222,5 +226,9 @@
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_code.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_code.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_kit.png.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\kit.png"
     }
 ]

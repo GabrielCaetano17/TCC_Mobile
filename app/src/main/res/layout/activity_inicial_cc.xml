@@ -89,7 +89,6 @@
             android:layout_width="175dp"
             android:layout_height="220dp"
             android:layout_marginTop="70dp"
-            android:layout_marginleft="400dp"
             android:background="@drawable/bloquin"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.885"
@@ -115,7 +114,6 @@
             android:layout_width="175dp"
             android:layout_height="205dp"
             android:layout_marginTop="306dp"
-            android:layout_marginleft="400dp"
             android:background="@drawable/bloquin"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.889"
@@ -222,12 +220,13 @@
             android:layout_width="75dp"
             android:layout_height="25dp"
             android:text="KIT LEGAL"
+            android:textColor="@color/black"
             android:textSize="15dp"
             android:textStyle="bold"
-            android:textColor="@color/black"
-            app:layout_constraintStart_toStartOf="@id/assine4"
             app:layout_constraintEnd_toEndOf="@id/assine4"
-            app:layout_constraintTop_toBottomOf="@id/assine4"/>
+            app:layout_constraintStart_toStartOf="@id/assine4"
+            app:layout_constraintTop_toBottomOf="@id/assine4"
+            tools:ignore="TextSizeCheck" />
 
         <TextView
             android:layout_width="75dp"
@@ -236,9 +235,10 @@
             android:textColor="@color/black"
             android:textSize="15dp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@id/assine3"
             app:layout_constraintEnd_toEndOf="@id/assine3"
-            app:layout_constraintTop_toBottomOf="@id/assine3"/>
+            app:layout_constraintStart_toStartOf="@id/assine3"
+            app:layout_constraintTop_toBottomOf="@id/assine3"
+            tools:ignore="TextSizeCheck" />
 
         <TextView
             android:layout_width="75dp"
@@ -247,9 +247,10 @@
             android:textColor="@color/black"
             android:textSize="15dp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@id/assine2"
             app:layout_constraintEnd_toEndOf="@id/assine2"
-            app:layout_constraintTop_toBottomOf="@id/assine2"/>
+            app:layout_constraintStart_toStartOf="@id/assine2"
+            app:layout_constraintTop_toBottomOf="@id/assine2"
+            tools:ignore="TextSizeCheck" />
 
         <TextView
             android:layout_width="75dp"
@@ -258,9 +259,10 @@
             android:textColor="@color/black"
             android:textSize="15dp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@id/assine"
             app:layout_constraintEnd_toEndOf="@id/assine"
-            app:layout_constraintTop_toBottomOf="@id/assine"/>
+            app:layout_constraintStart_toStartOf="@id/assine"
+            app:layout_constraintTop_toBottomOf="@id/assine"
+            tools:ignore="TextSizeCheck" />
 
 
 

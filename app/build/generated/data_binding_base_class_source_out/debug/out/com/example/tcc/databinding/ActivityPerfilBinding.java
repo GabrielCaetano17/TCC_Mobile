@@ -34,6 +34,9 @@ public final class ActivityPerfilBinding implements ViewBinding {
   public final View nome;
 
   @NonNull
+  public final TextView nomep;
+
+  @NonNull
   public final ImageView perfil;
 
   @NonNull
@@ -43,19 +46,25 @@ public final class ActivityPerfilBinding implements ViewBinding {
   public final View senha;
 
   @NonNull
+  public final TextView txtemail;
+
+  @NonNull
   public final AppCompatButton voltar;
 
   private ActivityPerfilBinding(@NonNull NestedScrollView rootView, @NonNull TextView ass,
-      @NonNull View assinatura, @NonNull View email, @NonNull View nome, @NonNull ImageView perfil,
-      @NonNull AppCompatButton sair, @NonNull View senha, @NonNull AppCompatButton voltar) {
+      @NonNull View assinatura, @NonNull View email, @NonNull View nome, @NonNull TextView nomep,
+      @NonNull ImageView perfil, @NonNull AppCompatButton sair, @NonNull View senha,
+      @NonNull TextView txtemail, @NonNull AppCompatButton voltar) {
     this.rootView = rootView;
     this.ass = ass;
     this.assinatura = assinatura;
     this.email = email;
     this.nome = nome;
+    this.nomep = nomep;
     this.perfil = perfil;
     this.sair = sair;
     this.senha = senha;
+    this.txtemail = txtemail;
     this.voltar = voltar;
   }
 
@@ -110,6 +119,12 @@ public final class ActivityPerfilBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.nomep;
+      TextView nomep = ViewBindings.findChildViewById(rootView, id);
+      if (nomep == null) {
+        break missingId;
+      }
+
       id = R.id.perfil;
       ImageView perfil = ViewBindings.findChildViewById(rootView, id);
       if (perfil == null) {
@@ -128,6 +143,12 @@ public final class ActivityPerfilBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.txtemail;
+      TextView txtemail = ViewBindings.findChildViewById(rootView, id);
+      if (txtemail == null) {
+        break missingId;
+      }
+
       id = R.id.voltar;
       AppCompatButton voltar = ViewBindings.findChildViewById(rootView, id);
       if (voltar == null) {
@@ -135,7 +156,7 @@ public final class ActivityPerfilBinding implements ViewBinding {
       }
 
       return new ActivityPerfilBinding((NestedScrollView) rootView, ass, assinatura, email, nome,
-          perfil, sair, senha, voltar);
+          nomep, perfil, sair, senha, txtemail, voltar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

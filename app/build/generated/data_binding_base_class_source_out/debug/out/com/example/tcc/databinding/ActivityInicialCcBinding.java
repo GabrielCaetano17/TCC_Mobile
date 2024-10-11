@@ -4,11 +4,11 @@ package com.example.tcc.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -22,13 +22,34 @@ public final class ActivityInicialCcBinding implements ViewBinding {
   private final NestedScrollView rootView;
 
   @NonNull
+  public final AppCompatButton assine;
+
+  @NonNull
+  public final AppCompatButton assine2;
+
+  @NonNull
+  public final AppCompatButton assine3;
+
+  @NonNull
+  public final AppCompatButton assine4;
+
+  @NonNull
+  public final View bloco1;
+
+  @NonNull
+  public final View bloco2;
+
+  @NonNull
+  public final View bloco3;
+
+  @NonNull
+  public final View bloco4;
+
+  @NonNull
   public final ImageView homi;
 
   @NonNull
   public final ImageView img;
-
-  @NonNull
-  public final TextView kitfit;
 
   @NonNull
   public final View menu;
@@ -37,18 +58,45 @@ public final class ActivityInicialCcBinding implements ViewBinding {
   public final ImageView perfil;
 
   @NonNull
-  public final ImageButton suplemento;
+  public final ImageView slupemento;
 
-  private ActivityInicialCcBinding(@NonNull NestedScrollView rootView, @NonNull ImageView homi,
-      @NonNull ImageView img, @NonNull TextView kitfit, @NonNull View menu,
-      @NonNull ImageView perfil, @NonNull ImageButton suplemento) {
+  @NonNull
+  public final ImageView slupemento2;
+
+  @NonNull
+  public final ImageView slupemento3;
+
+  @NonNull
+  public final ImageView slupemento4;
+
+  @NonNull
+  public final TextView titulo;
+
+  private ActivityInicialCcBinding(@NonNull NestedScrollView rootView,
+      @NonNull AppCompatButton assine, @NonNull AppCompatButton assine2,
+      @NonNull AppCompatButton assine3, @NonNull AppCompatButton assine4, @NonNull View bloco1,
+      @NonNull View bloco2, @NonNull View bloco3, @NonNull View bloco4, @NonNull ImageView homi,
+      @NonNull ImageView img, @NonNull View menu, @NonNull ImageView perfil,
+      @NonNull ImageView slupemento, @NonNull ImageView slupemento2, @NonNull ImageView slupemento3,
+      @NonNull ImageView slupemento4, @NonNull TextView titulo) {
     this.rootView = rootView;
+    this.assine = assine;
+    this.assine2 = assine2;
+    this.assine3 = assine3;
+    this.assine4 = assine4;
+    this.bloco1 = bloco1;
+    this.bloco2 = bloco2;
+    this.bloco3 = bloco3;
+    this.bloco4 = bloco4;
     this.homi = homi;
     this.img = img;
-    this.kitfit = kitfit;
     this.menu = menu;
     this.perfil = perfil;
-    this.suplemento = suplemento;
+    this.slupemento = slupemento;
+    this.slupemento2 = slupemento2;
+    this.slupemento3 = slupemento3;
+    this.slupemento4 = slupemento4;
+    this.titulo = titulo;
   }
 
   @Override
@@ -78,6 +126,54 @@ public final class ActivityInicialCcBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.assine;
+      AppCompatButton assine = ViewBindings.findChildViewById(rootView, id);
+      if (assine == null) {
+        break missingId;
+      }
+
+      id = R.id.assine2;
+      AppCompatButton assine2 = ViewBindings.findChildViewById(rootView, id);
+      if (assine2 == null) {
+        break missingId;
+      }
+
+      id = R.id.assine3;
+      AppCompatButton assine3 = ViewBindings.findChildViewById(rootView, id);
+      if (assine3 == null) {
+        break missingId;
+      }
+
+      id = R.id.assine4;
+      AppCompatButton assine4 = ViewBindings.findChildViewById(rootView, id);
+      if (assine4 == null) {
+        break missingId;
+      }
+
+      id = R.id.bloco1;
+      View bloco1 = ViewBindings.findChildViewById(rootView, id);
+      if (bloco1 == null) {
+        break missingId;
+      }
+
+      id = R.id.bloco2;
+      View bloco2 = ViewBindings.findChildViewById(rootView, id);
+      if (bloco2 == null) {
+        break missingId;
+      }
+
+      id = R.id.bloco3;
+      View bloco3 = ViewBindings.findChildViewById(rootView, id);
+      if (bloco3 == null) {
+        break missingId;
+      }
+
+      id = R.id.bloco4;
+      View bloco4 = ViewBindings.findChildViewById(rootView, id);
+      if (bloco4 == null) {
+        break missingId;
+      }
+
       id = R.id.homi;
       ImageView homi = ViewBindings.findChildViewById(rootView, id);
       if (homi == null) {
@@ -87,12 +183,6 @@ public final class ActivityInicialCcBinding implements ViewBinding {
       id = R.id.img;
       ImageView img = ViewBindings.findChildViewById(rootView, id);
       if (img == null) {
-        break missingId;
-      }
-
-      id = R.id.kitfit;
-      TextView kitfit = ViewBindings.findChildViewById(rootView, id);
-      if (kitfit == null) {
         break missingId;
       }
 
@@ -108,14 +198,39 @@ public final class ActivityInicialCcBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.suplemento;
-      ImageButton suplemento = ViewBindings.findChildViewById(rootView, id);
-      if (suplemento == null) {
+      id = R.id.slupemento;
+      ImageView slupemento = ViewBindings.findChildViewById(rootView, id);
+      if (slupemento == null) {
         break missingId;
       }
 
-      return new ActivityInicialCcBinding((NestedScrollView) rootView, homi, img, kitfit, menu,
-          perfil, suplemento);
+      id = R.id.slupemento2;
+      ImageView slupemento2 = ViewBindings.findChildViewById(rootView, id);
+      if (slupemento2 == null) {
+        break missingId;
+      }
+
+      id = R.id.slupemento3;
+      ImageView slupemento3 = ViewBindings.findChildViewById(rootView, id);
+      if (slupemento3 == null) {
+        break missingId;
+      }
+
+      id = R.id.slupemento4;
+      ImageView slupemento4 = ViewBindings.findChildViewById(rootView, id);
+      if (slupemento4 == null) {
+        break missingId;
+      }
+
+      id = R.id.titulo;
+      TextView titulo = ViewBindings.findChildViewById(rootView, id);
+      if (titulo == null) {
+        break missingId;
+      }
+
+      return new ActivityInicialCcBinding((NestedScrollView) rootView, assine, assine2, assine3,
+          assine4, bloco1, bloco2, bloco3, bloco4, homi, img, menu, perfil, slupemento, slupemento2,
+          slupemento3, slupemento4, titulo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

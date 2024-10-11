@@ -2732,6 +2732,7 @@ drawable alerta
 drawable assine
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg
 drawable bloperfil
 drawable bloquin
 drawable btn_checkbox_checked_mtrl
@@ -2773,6 +2774,7 @@ drawable ic_perfil
 drawable ic_search_black_24
 drawable ic_voltar
 drawable img
+drawable kit
 drawable load
 drawable m3_appbar_background
 drawable m3_avd_hide_password
@@ -2858,6 +2860,7 @@ id CPF
 id CTRL
 id FUNCTION
 id FirstFragment
+id KitFit
 id META
 id N
 id NO_DEBUG
@@ -2943,18 +2946,26 @@ id asConfigured
 id ass
 id assinatura
 id assine
+id assine2
+id assine3
+id assine4
 id async
 id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id aviso
+id backgroundLayout
 id barrier
 id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bloco1
+id bloco2
+id bloco3
+id bloco4
 id bottom
 id bounce
 id bounceBoth
@@ -3097,7 +3108,6 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
-id kitfit
 id labeled
 id layout
 id left
@@ -3145,6 +3155,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id motionLayout
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -3189,6 +3200,7 @@ id neverCompleteToStart
 id noScroll
 id noState
 id nome
+id nomep
 id none
 id normal
 id north
@@ -3282,6 +3294,9 @@ id skipCollapsed
 id skipped
 id slide
 id slupemento
+id slupemento2
+id slupemento3
+id slupemento4
 id snackbar_action
 id snackbar_text
 id snap
@@ -3309,7 +3324,6 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
-id suplemento
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
@@ -3350,6 +3364,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id titulo
 id toggle
 id top
 id topPanel
@@ -3363,6 +3378,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tstCadastro
+id txtemail
 id unchecked
 id uniform
 id unlabeled

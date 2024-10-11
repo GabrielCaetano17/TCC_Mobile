@@ -30,7 +30,7 @@ public class InicialSc extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(InicialSc.this, FormCadastro.class);
+                Intent it = new Intent(InicialSc.this, FormLogin.class);
                 startActivity(it);
 
             }

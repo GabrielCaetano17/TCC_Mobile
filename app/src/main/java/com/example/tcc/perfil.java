@@ -11,14 +11,21 @@ import android.widget.TextView;
 
 public class perfil extends AppCompatActivity {
 
+    private String email;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil);
         TextView textView = findViewById(R.id.voltar);
         TextView sair = findViewById(R.id.sair);
+        TextView txtemail = findViewById(R.id.txtemail);
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView ass = findViewById(R.id.ass);
         View View  = findViewById(R.id.assinatura);
+
+        Intent it = getIntent();
+        email = it.getExtras().getString("email");
+        txtemail.setText(email);
+
 
 
         textView.setOnClickListener(new View.OnClickListener() {

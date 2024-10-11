@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 public class InicialCc extends AppCompatActivity {
 
+    private String nome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,10 +22,17 @@ public class InicialCc extends AppCompatActivity {
         TextView textView3 = findViewById(R.id.assine3);
         TextView textView4 = findViewById(R.id.assine4);
 
+        String email, senha;
+        email = getIntent().getExtras().getString("email");
+        senha = getIntent().getExtras().getString("senha");
+
+
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(InicialCc.this, perfil.class);
+                it.putExtra("email", email);
+                it.putExtra("senha", senha);
                 startActivity(it);
             }
         });

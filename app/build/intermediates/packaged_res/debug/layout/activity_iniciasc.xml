@@ -60,6 +60,7 @@
             tools:layout_editor_absoluteY="16dp" />
 
         <TextView
+            android:id="@+id/titulo"
             android:textColor="@color/black"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
@@ -72,8 +73,203 @@
             android:textStyle="bold"
             />
 
+        <View
+            android:id="@+id/bloco4"
+            android:layout_width="175dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="200dp"
+            android:background="@drawable/bloquin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
 
+
+            app:layout_constraintTop_toBottomOf="@id/homi" />
+
+        <View
+
+            android:id="@+id/bloco3"
+            android:layout_width="175dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bloquin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.885"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/homi" />
+
+        <View
+            android:id="@+id/bloco2"
+            android:layout_width="175dp"
+            android:layout_height="205dp"
+            android:layout_marginTop="306dp"
+            android:layout_marginRight="200dp"
+            android:background="@drawable/bloquin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.338"
+            app:layout_constraintStart_toStartOf="parent"
+
+
+            app:layout_constraintTop_toBottomOf="@id/homi" />
+
+        <View
+            android:id="@+id/bloco1"
+            android:layout_width="175dp"
+            android:layout_height="205dp"
+            android:layout_marginTop="306dp"
+            android:background="@drawable/bloquin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.889"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/homi" />
+
+        <ImageView
+            android:id="@+id/slupemento"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+           android:layout_marginTop="10dp"
+            android:src="@drawable/suplemento"
+            app:layout_constraintEnd_toEndOf="@id/bloco2"
+            app:layout_constraintStart_toStartOf="@+id/bloco2"
+            app:layout_constraintTop_toBottomOf="@id/bloco4"
+             />
+
+        <ImageView
+            android:id="@+id/slupemento2"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginRight="1dp"
+            android:src="@drawable/suplemento"
+            app:layout_constraintEnd_toEndOf="@id/bloco3"
+            app:layout_constraintStart_toStartOf="@+id/bloco3"
+            app:layout_constraintTop_toBottomOf="@id/titulo" />
+
+        <ImageView
+            android:id="@+id/slupemento3"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/suplemento"
+            app:layout_constraintEnd_toEndOf="@id/bloco1"
+            app:layout_constraintStart_toStartOf="@+id/bloco1"
+            app:layout_constraintTop_toBottomOf="@id/bloco4"/>
+
+        <ImageView
+            android:id="@+id/slupemento4"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginRight="1dp"
+            android:src="@drawable/suplemento"
+            app:layout_constraintEnd_toEndOf="@id/bloco4"
+            app:layout_constraintStart_toStartOf="@+id/bloco4"
+            app:layout_constraintTop_toBottomOf="@id/titulo" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/assine"
+
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@drawable/assine"
+            android:text="assine já"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="@id/slupemento"
+            app:layout_constraintEnd_toEndOf="@id/slupemento"
+            app:layout_constraintTop_toBottomOf="@id/slupemento"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/assine2"
+
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@drawable/assine"
+            android:text="assine já"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="@id/slupemento2"
+            app:layout_constraintEnd_toEndOf="@id/slupemento2"
+            app:layout_constraintTop_toBottomOf="@id/slupemento2"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/assine3"
+
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@drawable/assine"
+            android:text="assine já"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="@id/slupemento3"
+            app:layout_constraintEnd_toEndOf="@id/slupemento3"
+            app:layout_constraintTop_toBottomOf="@id/slupemento3"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/assine4"
+
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="@drawable/assine"
+            android:text="assine já"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@id/slupemento4"
+            app:layout_constraintEnd_toEndOf="@id/slupemento4"
+            app:layout_constraintTop_toBottomOf="@id/slupemento4"
+            />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:text="KIT LEGAL"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/assine4"
+            app:layout_constraintStart_toStartOf="@id/assine4"
+            app:layout_constraintTop_toBottomOf="@id/assine4"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:text="KIT AZUL"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/assine3"
+            app:layout_constraintStart_toStartOf="@id/assine3"
+            app:layout_constraintTop_toBottomOf="@id/assine3"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:text="MEGA KIT"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/assine2"
+            app:layout_constraintStart_toStartOf="@id/assine2"
+            app:layout_constraintTop_toBottomOf="@id/assine2"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="25dp"
+            android:text="BASIC KIT"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/assine"
+            app:layout_constraintStart_toStartOf="@id/assine"
+            app:layout_constraintTop_toBottomOf="@id/assine"
+            tools:ignore="TextSizeCheck" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.core.widget.NestedScrollView>
+
+
