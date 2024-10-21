@@ -26,30 +26,30 @@ public final class ActivitySenhaBinding implements ViewBinding {
   public final TextView descriO;
 
   @NonNull
-  public final EditText email;
-
-  @NonNull
-  public final AppCompatButton entrar;
-
-  @NonNull
   public final ImageView img;
 
   @NonNull
   public final View menu;
 
   @NonNull
-  public final EditText repetir;
+  public final EditText repetirTroca;
+
+  @NonNull
+  public final EditText senhaTroca;
+
+  @NonNull
+  public final AppCompatButton trocarSenha;
 
   private ActivitySenhaBinding(@NonNull NestedScrollView rootView, @NonNull TextView descriO,
-      @NonNull EditText email, @NonNull AppCompatButton entrar, @NonNull ImageView img,
-      @NonNull View menu, @NonNull EditText repetir) {
+      @NonNull ImageView img, @NonNull View menu, @NonNull EditText repetirTroca,
+      @NonNull EditText senhaTroca, @NonNull AppCompatButton trocarSenha) {
     this.rootView = rootView;
     this.descriO = descriO;
-    this.email = email;
-    this.entrar = entrar;
     this.img = img;
     this.menu = menu;
-    this.repetir = repetir;
+    this.repetirTroca = repetirTroca;
+    this.senhaTroca = senhaTroca;
+    this.trocarSenha = trocarSenha;
   }
 
   @Override
@@ -85,18 +85,6 @@ public final class ActivitySenhaBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.email;
-      EditText email = ViewBindings.findChildViewById(rootView, id);
-      if (email == null) {
-        break missingId;
-      }
-
-      id = R.id.entrar;
-      AppCompatButton entrar = ViewBindings.findChildViewById(rootView, id);
-      if (entrar == null) {
-        break missingId;
-      }
-
       id = R.id.img;
       ImageView img = ViewBindings.findChildViewById(rootView, id);
       if (img == null) {
@@ -109,14 +97,26 @@ public final class ActivitySenhaBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.repetir;
-      EditText repetir = ViewBindings.findChildViewById(rootView, id);
-      if (repetir == null) {
+      id = R.id.repetir_troca;
+      EditText repetirTroca = ViewBindings.findChildViewById(rootView, id);
+      if (repetirTroca == null) {
         break missingId;
       }
 
-      return new ActivitySenhaBinding((NestedScrollView) rootView, descriO, email, entrar, img,
-          menu, repetir);
+      id = R.id.senha_troca;
+      EditText senhaTroca = ViewBindings.findChildViewById(rootView, id);
+      if (senhaTroca == null) {
+        break missingId;
+      }
+
+      id = R.id.trocar_senha;
+      AppCompatButton trocarSenha = ViewBindings.findChildViewById(rootView, id);
+      if (trocarSenha == null) {
+        break missingId;
+      }
+
+      return new ActivitySenhaBinding((NestedScrollView) rootView, descriO, img, menu, repetirTroca,
+          senhaTroca, trocarSenha);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

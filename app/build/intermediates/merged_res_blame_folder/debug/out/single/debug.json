@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\navigation_nav_graph2.xml.flat",
-        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\navigation\\nav_graph2.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_menu.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\menu.xml"
     },
@@ -32,24 +28,24 @@
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\img.png"
     },
     {
-        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_bloquin.xml.flat",
-        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\bloquin.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_alerta.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\alerta.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_bloquin.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\bloquin.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_pacote.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_pacote.xml"
     },
     {
-        "merged": "com.example.tcc.app-merged_res-32:/layout_activity_perfil.xml.flat",
-        "source": "com.example.tcc.app-main-34:/layout/activity_perfil.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_pacoteass.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_pacoteass.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_assinado4.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_assinado4.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_suplemento.png.flat",
@@ -58,6 +54,10 @@
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_pacote4.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_pacote4.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_bloperfil.xml.flat",
@@ -88,16 +88,20 @@
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\cancela.xml"
     },
     {
-        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\navigation_nav_graph3.xml.flat",
-        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\navigation\\nav_graph3.xml"
-    },
-    {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_pacote3.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_pacote3.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_assinado3.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_assinado3.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
@@ -114,6 +118,14 @@
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_ic_email.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_assinando2.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_assinando2.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_pacoteass4.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_pacoteass4.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_confirm.xml.flat",
@@ -144,12 +156,20 @@
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_form_login.xml"
     },
     {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_pacoteass3.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_pacoteass3.xml"
+    },
+    {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_pacote2.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_pacote2.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_main.xml.flat",
@@ -168,12 +188,16 @@
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\ic_perfil.xml"
     },
     {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_assinando3.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_assinando3.xml"
+    },
+    {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_ic_voltar.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\ic_voltar.xml"
     },
     {
-        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\navigation_nav_graph.xml.flat",
-        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\navigation\\nav_graph.xml"
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_assinado2.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_assinado2.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_form_cadastro.xml.flat",
@@ -182,6 +206,10 @@
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_perfil.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_perfil.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_pacoteass2.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_pacoteass2.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_assine.xml.flat",
@@ -200,6 +228,10 @@
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
+        "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_assinando4.xml.flat",
+        "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_assinando4.xml"
+    },
+    {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\layout_activity_assinando.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\layout\\activity_assinando.xml"
     },
@@ -214,6 +246,10 @@
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_entrar.xml.flat",
         "source": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-main-34:\\drawable\\entrar.xml"
+    },
+    {
+        "merged": "com.example.tcc.app-merged_res-32:/layout_activity_pacoteass.xml.flat",
+        "source": "com.example.tcc.app-main-34:/layout/activity_pacoteass.xml"
     },
     {
         "merged": "D:\\AndroidWorkFolder\\.gradle\\daemon\\8.0\\com.example.tcc.app-merged_res-32:\\drawable_load.gif.flat",

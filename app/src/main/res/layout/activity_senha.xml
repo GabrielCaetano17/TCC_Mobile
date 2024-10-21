@@ -47,7 +47,7 @@
 
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/senha_troca"
             style="@style/email"
             android:hint="insira a nova senha:"
             android:textColor="@color/black"
@@ -59,7 +59,7 @@
 
             />
         <EditText
-            android:id="@+id/repetir"
+            android:id="@+id/repetir_troca"
             style="@style/email"
             android:hint="Repetir a nova senha:"
             android:drawableRight="@drawable/ic_lock"
@@ -67,15 +67,15 @@
             android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="@+id/menu"
             app:layout_constraintStart_toStartOf="@+id/menu"
-            app:layout_constraintTop_toBottomOf="@+id/email" />
+            app:layout_constraintTop_toBottomOf="@+id/senha_troca" />
 
 
         <androidx.appcompat.widget.AppCompatButton
             style="@style/button"
-            android:id="@+id/entrar"
+            android:id="@+id/trocar_senha"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/repetir"
+            app:layout_constraintTop_toBottomOf="@id/repetir_troca"
             android:text="Prosseguir"
             android:textColor="@color/white"
 

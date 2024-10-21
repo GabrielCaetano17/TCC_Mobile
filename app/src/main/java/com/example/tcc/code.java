@@ -11,10 +11,15 @@ import android.widget.Toast;
 
 public class code extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_code);
+
+
+        String email = getIntent().getStringExtra("email");
 
         Button bnt = (Button) findViewById(R.id.entrar);
 
@@ -38,13 +43,15 @@ public class code extends AppCompatActivity {
             public void onClick(View view) {
                 String erros = validar();
                 if (erros.equals("")) {
-                    Intent it = new Intent(code.this, senha.class);
+                    Intent it = new Intent(code.this, Senha.class);
+                    it.putExtra("email", email);
                     startActivity(it);
                 }else {
                     Toast.makeText(code.this, "Verifique os erros: "+erros, Toast.LENGTH_SHORT).show();//Detectado erros
                 }
 
-    }
+
+            }
 } );
     }
 }

@@ -24,17 +24,18 @@ public class sempacote extends AppCompatActivity {
             public void onClick(View v) {
                 Intent it = new Intent(sempacote.this, InicialCc.class);
                 startActivity(it);
+
             }
         });
 
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(sempacote.this, perfil.class);
+                Intent it = new Intent(sempacote.this, Perfil.class);
                 startActivity(it);
+
             }
         });
-
 
     }
 }

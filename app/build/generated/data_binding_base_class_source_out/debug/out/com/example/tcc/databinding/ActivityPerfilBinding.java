@@ -25,13 +25,13 @@ public final class ActivityPerfilBinding implements ViewBinding {
   public final TextView ass;
 
   @NonNull
-  public final View assinatura;
+  public final View assinaturaPerfil;
 
   @NonNull
-  public final View email;
+  public final View emailPerfil;
 
   @NonNull
-  public final View nome;
+  public final View nomePerfil;
 
   @NonNull
   public final TextView nomep;
@@ -43,28 +43,29 @@ public final class ActivityPerfilBinding implements ViewBinding {
   public final AppCompatButton sair;
 
   @NonNull
-  public final View senha;
+  public final View senhaPerfil;
 
   @NonNull
-  public final TextView txtemail;
+  public final TextView txtemailPerfil;
 
   @NonNull
   public final AppCompatButton voltar;
 
   private ActivityPerfilBinding(@NonNull NestedScrollView rootView, @NonNull TextView ass,
-      @NonNull View assinatura, @NonNull View email, @NonNull View nome, @NonNull TextView nomep,
-      @NonNull ImageView perfil, @NonNull AppCompatButton sair, @NonNull View senha,
-      @NonNull TextView txtemail, @NonNull AppCompatButton voltar) {
+      @NonNull View assinaturaPerfil, @NonNull View emailPerfil, @NonNull View nomePerfil,
+      @NonNull TextView nomep, @NonNull ImageView perfil, @NonNull AppCompatButton sair,
+      @NonNull View senhaPerfil, @NonNull TextView txtemailPerfil,
+      @NonNull AppCompatButton voltar) {
     this.rootView = rootView;
     this.ass = ass;
-    this.assinatura = assinatura;
-    this.email = email;
-    this.nome = nome;
+    this.assinaturaPerfil = assinaturaPerfil;
+    this.emailPerfil = emailPerfil;
+    this.nomePerfil = nomePerfil;
     this.nomep = nomep;
     this.perfil = perfil;
     this.sair = sair;
-    this.senha = senha;
-    this.txtemail = txtemail;
+    this.senhaPerfil = senhaPerfil;
+    this.txtemailPerfil = txtemailPerfil;
     this.voltar = voltar;
   }
 
@@ -101,21 +102,21 @@ public final class ActivityPerfilBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.assinatura;
-      View assinatura = ViewBindings.findChildViewById(rootView, id);
-      if (assinatura == null) {
+      id = R.id.assinatura_perfil;
+      View assinaturaPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (assinaturaPerfil == null) {
         break missingId;
       }
 
-      id = R.id.email;
-      View email = ViewBindings.findChildViewById(rootView, id);
-      if (email == null) {
+      id = R.id.email_perfil;
+      View emailPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (emailPerfil == null) {
         break missingId;
       }
 
-      id = R.id.nome;
-      View nome = ViewBindings.findChildViewById(rootView, id);
-      if (nome == null) {
+      id = R.id.nome_perfil;
+      View nomePerfil = ViewBindings.findChildViewById(rootView, id);
+      if (nomePerfil == null) {
         break missingId;
       }
 
@@ -137,15 +138,15 @@ public final class ActivityPerfilBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.senha;
-      View senha = ViewBindings.findChildViewById(rootView, id);
-      if (senha == null) {
+      id = R.id.senha_perfil;
+      View senhaPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (senhaPerfil == null) {
         break missingId;
       }
 
-      id = R.id.txtemail;
-      TextView txtemail = ViewBindings.findChildViewById(rootView, id);
-      if (txtemail == null) {
+      id = R.id.txtemail_perfil;
+      TextView txtemailPerfil = ViewBindings.findChildViewById(rootView, id);
+      if (txtemailPerfil == null) {
         break missingId;
       }
 
@@ -155,8 +156,8 @@ public final class ActivityPerfilBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPerfilBinding((NestedScrollView) rootView, ass, assinatura, email, nome,
-          nomep, perfil, sair, senha, txtemail, voltar);
+      return new ActivityPerfilBinding((NestedScrollView) rootView, ass, assinaturaPerfil,
+          emailPerfil, nomePerfil, nomep, perfil, sair, senhaPerfil, txtemailPerfil, voltar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

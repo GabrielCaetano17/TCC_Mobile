@@ -21,8 +21,10 @@ import android.widget.TextView;
             public void onClick(View v) {
                 Intent it = new Intent(confirm.this, InicialCc.class);
                 startActivity(it);
+
             }
         });
+
 
 
     }

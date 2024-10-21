@@ -20,18 +20,21 @@ public class assinado extends AppCompatActivity {
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(assinado.this, InicialCc.class);
+                Intent it = new Intent(assinado.this, InicialCc.class); //linkagem
                 startActivity(it);
+
             }
         });
 
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(assinado.this, perfil.class);
+                Intent it = new Intent(assinado.this, Perfil.class);
                 startActivity(it);
+
             }
         });
+
 
     }
 }

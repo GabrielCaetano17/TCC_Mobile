@@ -23,7 +23,7 @@ public final class ActivityPacoteassBinding implements ViewBinding {
   private final NestedScrollView rootView;
 
   @NonNull
-  public final AppCompatButton assine;
+  public final AppCompatButton cancela;
 
   @NonNull
   public final TextView descriO;
@@ -50,11 +50,11 @@ public final class ActivityPacoteassBinding implements ViewBinding {
   public final ImageView slupemento;
 
   private ActivityPacoteassBinding(@NonNull NestedScrollView rootView,
-      @NonNull AppCompatButton assine, @NonNull TextView descriO, @NonNull RatingBar estrelinha,
+      @NonNull AppCompatButton cancela, @NonNull TextView descriO, @NonNull RatingBar estrelinha,
       @NonNull ImageView img, @NonNull View menu, @NonNull TextView pacote,
       @NonNull ImageView perfil, @NonNull TextView preco, @NonNull ImageView slupemento) {
     this.rootView = rootView;
-    this.assine = assine;
+    this.cancela = cancela;
     this.descriO = descriO;
     this.estrelinha = estrelinha;
     this.img = img;
@@ -92,9 +92,9 @@ public final class ActivityPacoteassBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.assine;
-      AppCompatButton assine = ViewBindings.findChildViewById(rootView, id);
-      if (assine == null) {
+      id = R.id.cancela;
+      AppCompatButton cancela = ViewBindings.findChildViewById(rootView, id);
+      if (cancela == null) {
         break missingId;
       }
 
@@ -146,7 +146,7 @@ public final class ActivityPacoteassBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPacoteassBinding((NestedScrollView) rootView, assine, descriO, estrelinha,
+      return new ActivityPacoteassBinding((NestedScrollView) rootView, cancela, descriO, estrelinha,
           img, menu, pacote, perfil, preco, slupemento);
     }
     String missingId = rootView.getResources().getResourceName(id);

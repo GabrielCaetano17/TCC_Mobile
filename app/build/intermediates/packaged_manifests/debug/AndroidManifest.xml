@@ -25,7 +25,7 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/kit"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -33,16 +33,52 @@
         android:theme="@style/Theme.TCC"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.tcc.assinado4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tcc.pacoteass4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tcc.assinando4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tcc.Pacote4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tcc.pacoteass3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tcc.assinado3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tcc.assinando3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tcc.Pacote3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tcc.pacoteass2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tcc.assinado2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tcc.assinando2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tcc.Pacote2"
+            android:exported="false" />
+        <activity
             android:name="com.example.tcc.confirm"
             android:exported="false" />
         <activity
-            android:name="com.example.tcc.senha"
+            android:name="com.example.tcc.Senha"
             android:exported="false" />
         <activity
             android:name="com.example.tcc.code"
             android:exported="false" />
         <activity
-            android:name="com.example.tcc.email"
+            android:name="com.example.tcc.Email"
             android:exported="false" />
         <activity
             android:name="com.example.tcc.assinado"
@@ -74,7 +110,7 @@
             android:name="com.example.tcc.Pacote"
             android:exported="false" />
         <activity
-            android:name="com.example.tcc.perfil"
+            android:name="com.example.tcc.Perfil"
             android:exported="false" />
         <activity
             android:name="com.example.tcc.InicialCc"

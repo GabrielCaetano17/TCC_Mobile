@@ -33,6 +33,7 @@ public class FormCadastro extends AppCompatActivity {
           public void onClick(View v) {
               Intent it = new Intent(FormCadastro.this, FormLogin.class);
               startActivity(it);
+
           }
       });
 
@@ -103,9 +104,11 @@ public class FormCadastro extends AppCompatActivity {
                 }else {
                     erros = "";
                 }
+
             }
         });
-    }
+
+  }
 
 
 }

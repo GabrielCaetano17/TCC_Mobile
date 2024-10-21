@@ -33,14 +33,16 @@ public class InicialSc extends AppCompatActivity {
                 Intent it = new Intent(InicialSc.this, FormLogin.class);
                 startActivity(it);
 
+
             }
         });
 
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(InicialSc.this, Pacote.class);
+                Intent it = new Intent(InicialSc.this, Pacote4.class);
                 startActivity(it);
+
 
             }
         });
@@ -48,8 +50,9 @@ public class InicialSc extends AppCompatActivity {
         textView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(InicialSc.this, Pacote.class);
+                Intent it = new Intent(InicialSc.this, Pacote3.class);
                 startActivity(it);
+
 
             }
         });
@@ -57,8 +60,9 @@ public class InicialSc extends AppCompatActivity {
         textView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(InicialSc.this, Pacote.class);
+                Intent it = new Intent(InicialSc.this, Pacote2.class);
                 startActivity(it);
+
 
             }
         });
@@ -69,9 +73,8 @@ public class InicialSc extends AppCompatActivity {
                 Intent it = new Intent(InicialSc.this, Pacote.class);
                 startActivity(it);
 
+
             }
         });
-
-
 
     }}

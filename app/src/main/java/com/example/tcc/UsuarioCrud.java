@@ -6,6 +6,7 @@ import java.sql.PreparedStatement;
 
 public class UsuarioCrud {
 
+    Usuario usuario;
     public static int InserirUsuario (Usuario usuario, Context ctx) {
 
         int resposta = 0;
@@ -15,9 +16,10 @@ public class UsuarioCrud {
                     ("INSERT Usuario (nome, email, senha, nivelAcesso, foto, dataCadastro, statusUsuario)\n" +
                             "VALUES (?, ?,? , 'Cliente', NULL, GETDATE(), 'ATIVO')");
 
-            pst.setString(1, Usuario.getNome());
-            pst.setString(2, Usuario.getEmail());
-            pst.setString(3, Usuario.getSenha());
+            new Usuario();
+            pst.setString(1, usuario.getNome());
+            pst.setString(2, usuario.getEmail());
+            pst.setString(3, usuario.getSenha());
 
 
             resposta = pst.executeUpdate();

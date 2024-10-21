@@ -4,7 +4,17 @@
             "outputFile": "com.example.tcc.app-mergeDebugResources-30:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "Z:\\TCC\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "source": "D:\\AndroidWorkFolder\\.gradle\\caches\\transforms-3\\b5364afbc06c95c72352e38d6ea75d02\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "D:\\kitfit\\TCC\\app\\src\\main\\res\\values-land\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "264",
                         "endColumns": "41",
                         "endOffsets": "301"
-                    }
-                },
-                {
-                    "source": "D:\\AndroidWorkFolder\\.gradle\\caches\\transforms-3\\b5364afbc06c95c72352e38d6ea75d02\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
                     }
                 },
                 {

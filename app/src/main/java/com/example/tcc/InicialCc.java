@@ -2,7 +2,6 @@ package com.example.tcc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -25,15 +24,18 @@ public class InicialCc extends AppCompatActivity {
         String email, senha;
         email = getIntent().getExtras().getString("email");
         senha = getIntent().getExtras().getString("senha");
+        nome = getIntent().getStringExtra("nome");
 
 
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(InicialCc.this, perfil.class);
+                Intent it = new Intent(InicialCc.this, Perfil.class);
                 it.putExtra("email", email);
                 it.putExtra("senha", senha);
+                it.putExtra("nome", nome);
                 startActivity(it);
+
             }
         });
 
@@ -41,8 +43,10 @@ public class InicialCc extends AppCompatActivity {
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(InicialCc.this, Pacote.class);
+                Intent it = new Intent(InicialCc.this, Pacote3.class);
+                it.putExtra("email", email);
                 startActivity(it);
+
 
             }
         });
@@ -50,8 +54,10 @@ public class InicialCc extends AppCompatActivity {
         textView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(InicialCc.this, Pacote.class);
+                Intent it = new Intent(InicialCc.this, Pacote2.class);
+                it.putExtra("email", email);
                 startActivity(it);
+
 
             }
         });
@@ -59,8 +65,10 @@ public class InicialCc extends AppCompatActivity {
         textView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(InicialCc.this, Pacote.class);
+                Intent it = new Intent(InicialCc.this, Pacote4.class);
+                it.putExtra("email", email);
                 startActivity(it);
+
 
             }
         });
@@ -69,7 +77,9 @@ public class InicialCc extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(InicialCc.this, Pacote.class);
+                it.putExtra("email", email);
                 startActivity(it);
+
 
             }
         });

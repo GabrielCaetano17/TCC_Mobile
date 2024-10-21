@@ -22,7 +22,6 @@
     <string name="email"> Para realizar a troca da sua senha, é necessário que você insira seu e-mail.</string>
     <string name="entrar">Entrar</string>
     <string name="esqueceu">Esqueceu a senha?</string>
-    <string name="first_fragment_label">First Fragment</string>
     <string name="insira">Insira o código aqui</string>
     <string name="lorem">
 
@@ -69,11 +68,14 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="mando">Mandamos um código para </string>
-    <string name="next">Next</string>
-    <string name="pacote">nome do pacote</string>
-    <string name="previous">Previous</string>
+    <string name="pacote">pacote legal</string>
+    <string name="pacote2">mega kit</string>
+    <string name="pacote3">basic kit</string>
+    <string name="pacote4">pacote azul</string>
     <string name="preço">R$: 159,99</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="preço2">R$: 249,99</string>
+    <string name="preço3">R$: 139,99</string>
+    <string name="preço4">R$: 179,99</string>
     <string name="title_activity_assinando">assinando</string>
     <string name="title_activity_inicial_sc">InicialSc</string>
     <string name="title_activity_teste">Teste</string>
