@@ -9,14 +9,14 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:5:5-67
-11-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:6:5-80
-12-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:6:22-77
+12-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:6:22-77
 13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:7:5-81
-13-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:7:22-78
+13-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:7:22-78
 14
 15    <permission
 15-->[androidx.core:core:1.9.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\25d17c91d5902985514078e82b64555a\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
@@ -30,213 +30,213 @@
 19-->[androidx.core:core:1.9.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\25d17c91d5902985514078e82b64555a\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 20
 21    <application
-21-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:9:5-112:19
+21-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:9:5-112:19
 22        android:allowBackup="true"
-22-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:10:9-35
+22-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:10:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 23-->[androidx.core:core:1.9.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\25d17c91d5902985514078e82b64555a\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 24        android:dataExtractionRules="@xml/data_extraction_rules"
-24-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:11:9-65
+24-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:11:9-65
 25        android:debuggable="true"
 26        android:extractNativeLibs="false"
 27        android:fullBackupContent="@xml/backup_rules"
-27-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:12:9-54
+27-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:12:9-54
 28        android:icon="@drawable/kit"
-28-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:13:9-37
+28-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:13:9-37
 29        android:label="@string/app_name"
-29-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:14:9-41
+29-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:14:9-41
 30        android:roundIcon="@mipmap/ic_launcher_round"
-30-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:15:9-54
+30-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:15:9-54
 31        android:supportsRtl="true"
-31-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:16:9-35
+31-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:16:9-35
 32        android:testOnly="true"
 33        android:theme="@style/Theme.TCC"
-33-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:17:9-41
+33-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:17:9-41
 34        android:usesCleartextTraffic="true" >
-34-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:18:9-44
+34-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:18:9-44
 35        <activity
-35-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:20:9-22:40
+35-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:20:9-22:40
 36            android:name="com.example.tcc.assinado4"
-36-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:21:13-38
+36-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:21:13-38
 37            android:exported="false" />
-37-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:22:13-37
+37-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:22:13-37
 38        <activity
-38-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:23:9-25:40
+38-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:23:9-25:40
 39            android:name="com.example.tcc.pacoteass4"
-39-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:24:13-39
+39-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:24:13-39
 40            android:exported="false" />
-40-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:25:13-37
+40-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:25:13-37
 41        <activity
-41-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:26:9-28:40
+41-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:26:9-28:40
 42            android:name="com.example.tcc.assinando4"
-42-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:27:13-39
+42-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:27:13-39
 43            android:exported="false" />
-43-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:28:13-37
+43-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:28:13-37
 44        <activity
-44-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:29:9-31:40
+44-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:29:9-31:40
 45            android:name="com.example.tcc.Pacote4"
-45-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:30:13-36
+45-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:30:13-36
 46            android:exported="false" />
-46-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:31:13-37
+46-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:31:13-37
 47        <activity
-47-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:32:9-34:40
+47-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:32:9-34:40
 48            android:name="com.example.tcc.pacoteass3"
-48-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:33:13-39
+48-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:33:13-39
 49            android:exported="false" />
-49-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:34:13-37
+49-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:34:13-37
 50        <activity
-50-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:35:9-37:40
+50-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:35:9-37:40
 51            android:name="com.example.tcc.assinado3"
-51-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:36:13-38
+51-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:36:13-38
 52            android:exported="false" />
-52-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:37:13-37
+52-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:37:13-37
 53        <activity
-53-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:38:9-40:40
+53-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:38:9-40:40
 54            android:name="com.example.tcc.assinando3"
-54-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:39:13-39
+54-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:39:13-39
 55            android:exported="false" />
-55-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:40:13-37
+55-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:40:13-37
 56        <activity
-56-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:41:9-43:40
+56-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:41:9-43:40
 57            android:name="com.example.tcc.Pacote3"
-57-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:42:13-36
+57-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:42:13-36
 58            android:exported="false" />
-58-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:43:13-37
+58-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:43:13-37
 59        <activity
-59-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:44:9-46:40
+59-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:44:9-46:40
 60            android:name="com.example.tcc.pacoteass2"
-60-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:45:13-39
+60-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:45:13-39
 61            android:exported="false" />
-61-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:46:13-37
+61-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:46:13-37
 62        <activity
-62-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:47:9-49:40
+62-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:47:9-49:40
 63            android:name="com.example.tcc.assinado2"
-63-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:48:13-38
+63-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:48:13-38
 64            android:exported="false" />
-64-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:49:13-37
+64-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:49:13-37
 65        <activity
-65-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:50:9-52:40
+65-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:50:9-52:40
 66            android:name="com.example.tcc.assinando2"
-66-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:51:13-39
+66-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:51:13-39
 67            android:exported="false" />
-67-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:52:13-37
+67-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:52:13-37
 68        <activity
-68-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:53:9-55:40
+68-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:53:9-55:40
 69            android:name="com.example.tcc.Pacote2"
-69-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:54:13-36
+69-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:54:13-36
 70            android:exported="false" />
-70-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:55:13-37
+70-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:55:13-37
 71        <activity
-71-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:56:9-58:40
+71-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:56:9-58:40
 72            android:name="com.example.tcc.confirm"
-72-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:57:13-36
+72-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:57:13-36
 73            android:exported="false" />
-73-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:58:13-37
+73-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:58:13-37
 74        <activity
-74-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:59:9-61:40
+74-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:59:9-61:40
 75            android:name="com.example.tcc.Senha"
-75-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:60:13-34
+75-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:60:13-34
 76            android:exported="false" />
-76-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:61:13-37
+76-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:61:13-37
 77        <activity
-77-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:62:9-64:40
+77-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:62:9-64:40
 78            android:name="com.example.tcc.code"
-78-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:63:13-33
+78-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:63:13-33
 79            android:exported="false" />
-79-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:64:13-37
+79-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:64:13-37
 80        <activity
-80-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:65:9-67:40
+80-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:65:9-67:40
 81            android:name="com.example.tcc.Email"
-81-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:66:13-34
+81-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:66:13-34
 82            android:exported="false" />
-82-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:67:13-37
+82-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:67:13-37
 83        <activity
-83-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:68:9-70:40
+83-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:68:9-70:40
 84            android:name="com.example.tcc.assinado"
-84-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:69:13-37
+84-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:69:13-37
 85            android:exported="false" />
-85-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:70:13-37
+85-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:70:13-37
 86        <activity
-86-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:71:9-74:48
+86-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:71:9-74:48
 87            android:name="com.example.tcc.assinando"
-87-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:72:13-38
+87-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:72:13-38
 88            android:exported="false"
-88-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:73:13-37
+88-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:73:13-37
 89            android:theme="@style/Theme.TCC" />
-89-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:74:13-45
+89-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:74:13-45
 90        <activity
-90-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:75:9-77:40
+90-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:75:9-77:40
 91            android:name="com.example.tcc.sempacote"
-91-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:76:13-38
+91-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:76:13-38
 92            android:exported="false" />
-92-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:77:13-37
+92-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:77:13-37
 93        <activity
-93-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:78:9-80:40
+93-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:78:9-80:40
 94            android:name="com.example.tcc.pacoteass"
-94-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:79:13-38
+94-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:79:13-38
 95            android:exported="false" />
-95-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:80:13-37
+95-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:80:13-37
 96        <activity
-96-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:81:9-90:20
+96-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:81:9-90:20
 97            android:name="com.example.tcc.InicialSc"
-97-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:82:13-38
+97-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:82:13-38
 98            android:exported="true"
-98-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:83:13-36
+98-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:83:13-36
 99            android:theme="@style/Theme.TCC" >
-99-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:84:13-45
+99-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:84:13-45
 100            <intent-filter>
-100-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:85:13-89:29
+100-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:85:13-89:29
 101                <action android:name="android.intent.action.MAIN" />
-101-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:86:17-69
-101-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:86:25-66
+101-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:86:17-69
+101-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:86:25-66
 102
 103                <category android:name="android.intent.category.LAUNCHER" />
-103-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:88:17-77
-103-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:88:27-74
+103-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:88:17-77
+103-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:88:27-74
 104            </intent-filter>
 105        </activity>
 106        <activity
-106-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:91:9-93:40
+106-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:91:9-93:40
 107            android:name="com.example.tcc.Testebd"
-107-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:92:13-36
+107-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:92:13-36
 108            android:exported="false" />
-108-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:93:13-37
+108-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:93:13-37
 109        <activity
-109-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:94:9-96:40
+109-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:94:9-96:40
 110            android:name="com.example.tcc.Pacote"
-110-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:95:13-35
+110-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:95:13-35
 111            android:exported="false" />
-111-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:96:13-37
+111-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:96:13-37
 112        <activity
-112-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:97:9-99:40
+112-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:97:9-99:40
 113            android:name="com.example.tcc.Perfil"
-113-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:98:13-35
+113-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:98:13-35
 114            android:exported="false" />
-114-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:99:13-37
+114-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:99:13-37
 115        <activity
-115-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:100:9-102:40
+115-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:100:9-102:40
 116            android:name="com.example.tcc.InicialCc"
-116-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:101:13-38
+116-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:101:13-38
 117            android:exported="false" />
-117-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:102:13-37
+117-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:102:13-37
 118        <activity
-118-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:103:9-105:40
+118-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:103:9-105:40
 119            android:name="com.example.tcc.FormCadastro"
-119-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:104:13-41
+119-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:104:13-41
 120            android:exported="false" />
-120-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:105:13-37
+120-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:105:13-37
 121        <activity
-121-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:106:9-108:40
+121-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:106:9-108:40
 122            android:name="com.example.tcc.MainActivity"
-122-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:107:13-41
+122-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:107:13-41
 123            android:exported="false" />
-123-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:108:13-37
+123-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:108:13-37
 124        <activity
-124-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:109:9-111:40
+124-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:109:9-111:40
 125            android:name="com.example.tcc.FormLogin"
-125-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:110:13-38
+125-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:110:13-38
 126            android:exported="false" />
-126-->D:\kitfit\TCC\app\src\main\AndroidManifest.xml:111:13-37
+126-->C:\Users\rm86248\Desktop\TCC\app\src\main\AndroidManifest.xml:111:13-37
 127
 128        <provider
 128-->[androidx.emoji2:emoji2:1.2.0] D:\AndroidWorkFolder\.gradle\caches\transforms-3\2359ec2300da750368c8a650184da00c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20

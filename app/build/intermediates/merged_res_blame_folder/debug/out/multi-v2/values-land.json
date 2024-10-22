@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tcc.app-mergeDebugResources-30:/values-land/values-land.xml",
+            "outputFile": "com.example.tcc.app-mergeDebugResources-2:/values-land/values-land.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\rm86248\\Desktop\\TCC\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "41",
+                        "endOffsets": "54"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "41",
+                        "endOffsets": "301"
+                    }
+                },
                 {
                     "source": "D:\\AndroidWorkFolder\\.gradle\\caches\\transforms-3\\b5364afbc06c95c72352e38d6ea75d02\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
                     "from": {
@@ -11,23 +28,6 @@
                         "startOffsets": "55,125,196",
                         "endColumns": "69,70,67",
                         "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "D:\\kitfit\\TCC\\app\\src\\main\\res\\values-land\\dimens.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "41",
-                        "endOffsets": "53"
-                    },
-                    "to": {
-                        "startLines": "5",
-                        "startColumns": "4",
-                        "startOffsets": "264",
-                        "endColumns": "41",
-                        "endOffsets": "301"
                     }
                 },
                 {

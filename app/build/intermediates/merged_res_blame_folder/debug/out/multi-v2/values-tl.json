@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tcc.app-mergeDebugResources-30:/values-tl/values-tl.xml",
+            "outputFile": "com.example.tcc.app-mergeDebugResources-2:/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "D:\\AndroidWorkFolder\\.gradle\\caches\\transforms-3\\c01feb1ab594767aee8785d9732192e9\\transformed\\navigation-ui-2.3.5\\res\\values-tl\\values-tl.xml",

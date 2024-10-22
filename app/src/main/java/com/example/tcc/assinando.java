@@ -57,9 +57,9 @@ public class assinando extends AppCompatActivity {
                 Intent t = getIntent();
                 email = t.getStringExtra("email");
 
-String emailAss = email;
-String query = "INSERT Assinatura (dataAssinatura,codigo, emailUsu, kit_id,valor, statusAssinatura)" +
-        "VALUES (GETDATE(),'1234567890', "+ "'" + emailAss + "'" + ", 1, 159.00 , 'INATIVO')";
+                String emailAss = email;
+                String query = "INSERT Assinatura (dataAssinatura,codigo, emailUsu, kit_id,valor, statusAssinatura)" +
+                        "VALUES (GETDATE(),'1234567890', "+ "'" + emailAss + "'" + ", 1, 159.00 , 'INATIVO')";
                 try {
                     PreparedStatement preparedStatement = Conexao.conectar(assinando.this).prepareStatement(query);
 

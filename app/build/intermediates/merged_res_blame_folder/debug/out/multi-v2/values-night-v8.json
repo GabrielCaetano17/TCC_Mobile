@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tcc.app-mergeDebugResources-30:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.tcc.app-mergeDebugResources-2:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "D:\\AndroidWorkFolder\\.gradle\\caches\\transforms-3\\47c0354ea75c54d51e914140b7785319\\transformed\\material-1.8.0\\res\\values-night-v8\\values-night-v8.xml",
@@ -21,14 +21,14 @@
                     }
                 },
                 {
-                    "source": "D:\\kitfit\\TCC\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\rm86248\\Desktop\\TCC\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "100",
+                        "startOffsets": "102",
                         "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "310"
+                        "endOffsets": "315"
                     },
                     "to": {
                         "startLines": "2",

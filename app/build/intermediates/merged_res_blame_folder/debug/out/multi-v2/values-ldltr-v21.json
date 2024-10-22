@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.tcc.app-mergeDebugResources-30:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.example.tcc.app-mergeDebugResources-2:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
                     "source": "D:\\AndroidWorkFolder\\.gradle\\caches\\transforms-3\\b5364afbc06c95c72352e38d6ea75d02\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
